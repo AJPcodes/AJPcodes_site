@@ -55,7 +55,7 @@ a {
 a:hover {
     color: black;
     text-decoration: none;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 
@@ -79,7 +79,8 @@ nav ul {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 nav dl{
@@ -203,5 +204,4 @@ footer:hover {
     background-color: rgba(0,0,0,0.7);
     cursor: pointer;
 }
-
 

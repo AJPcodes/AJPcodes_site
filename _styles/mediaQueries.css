@@ -1,0 +1,70 @@
+@media screen and (min-width: 100px) and (max-width: 600px) {
+
+  html {
+    background: #fff;
+  }
+
+
+/*Nav Styles*/
+
+  nav {
+    width: 120%;
+    height: 2em;
+    padding: 0 1.5em 4em;
+    top: -0.5em;
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+
+  nav ul {
+    max-width: 95%;
+  }
+
+  nav dl {
+    margin: 3px .5em;
+    font-size: 1.5em;
+  }
+
+  nav dl a {
+    text-decoration: none;   
+  }
+
+
+  nav h2 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    height: 1em;
+    line-height: 1em;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+
+  nav a {
+    font-size: .75em;   
+  }   
+
+
+/*Content Styles*/
+
+  #content {
+    width: 95%;
+
+  }
+  h1 {
+    font-size: 1.25em;
+  }
+
+  p, ul {
+    text-align: justify;
+    text-indent: .75em;
+    line-height: 1em;
+    padding: .5em; 
+    font-size: .75em;
+  }
+
+
+
+
+
+}
