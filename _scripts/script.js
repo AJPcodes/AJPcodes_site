@@ -29,21 +29,27 @@ navMain.onmouseout = hideNav;
 
 
 //function to animate the Main Header//
-
 var mainHeader = document.querySelector('header h1');
 var x = -50;
 mainHeader.setAttribute("style", "letter-spacing: -50px");
 
-function animateHeader() {
+var animateHeader  = function() {
     "use strict";
     if (x < 15) {
    mainHeader.setAttribute("style", "letter-spacing: " + x + "px");
     x++;
 }
 }
+
 setInterval(animateHeader, 30);
 
+mainHeader.onclick = function() {
+    window.clearInterval(animateHeader);
+    x = -50;
+    setInterval(animateHeader, 55);
+}
 
+mainHeader.onmouseout = animateHeader;
 
 //function to rotate the image on the Yoga Interests Page
 var yogaImage = document.getElementById("yogaImage");
