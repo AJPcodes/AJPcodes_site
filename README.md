@@ -1,7 +1,7 @@
 # AJPcodes_site
 
-This is a personal prokject I'm using to reinforce my activities at NSS.
-The main point is to practice HTML/CSS, JavaScript, and using Git in general. Feel free to poke around and look at the code.
-Tips, comments, questions, and suggestions are all welcome.
+This was a personal project I used to reinforce my activities while beginning at NSS.
+The main point was to practice HTML/CSS, JavaScript, and using Git in general. 
 
-Happy coding.
+I created my new personal site AJPCodes.github.io using github pages and Jekyll. 
+So that's a better place to look now. 
